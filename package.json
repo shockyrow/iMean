@@ -1,0 +1,19 @@
+{
+  "name": "i-mean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ibrokhim Shokirov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "mongo-sanitize": "^1.0.0",
+    "mongoose": "^4.11.1"
+  }
+}

@@ -1,0 +1,91 @@
+html,body {
+  height: 100%;
+}
+body {
+  background-image: url('../img/bg3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.button {
+  font-family: 'Patua One', cursive;
+  padding: 8px;
+  max-width: 350px;
+  width: calc(100% - 2em);
+  margin: 8px auto;
+  font-size: 16px;
+}
+.button.submit[ng-disabled="true"] {
+  pointer-events: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Patua One', cursive;
+  color: #323232;
+}
+header {
+  background-color: #F8F8F8;
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-image: -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+
+  border: 1px solid #C6C6C6;
+  color: #333;
+
+  -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+  box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+  margin: auto;
+  max-width: 1366px;
+  width: calc(100% - 2em);
+  padding: 0 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+header a {
+  font-family: 'Patua One', cursive;
+  color: #161616;
+  text-decoration: none;
+  padding: 16px;
+  display: inline-block;
+  margin: 0 2px;
+}
+header a:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.seperator {
+  border: 1px solid #161616;
+  margin: 2px;
+}
+a:focus {
+  outline: none;
+  color: #03A9F4;
+}
+.textField {
+  font-family: 'Patua One', cursive;
+  padding: 8px;
+  max-width: 350px;
+  width: calc(100% - 2em);
+  margin: 8px auto;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  color: #323232;
+  background: #fff;
+  transition: all ease 0.25s;
+}
+.textField:hover {
+  box-shadow: 0 0 6px #646464;
+  transition: all ease 0.25s;
+}
+.textField:focus {
+  outline: none;
+  border: 1px solid #03A9F4;
+  box-shadow: 0 0 6px #03A9F4;
+}
+.about {
+  font-family: 'Patua One', cursive;
+  text-align: justify;
+  text-indent: 2em;
+  padding: 16px 32px;
+}

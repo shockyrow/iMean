@@ -1,0 +1,15 @@
+<div class="smallForm">
+  <h1 style="margin:16px 0 0 0; font-size:48px;">> Registration <</h1><br /><hr /><br />
+  <form name="registrationForm" method="POST" action="/register">
+    <input class="textField" type="text" placeholder="Fullname" id="fullname" name="fullname" ng-model="fullname" autocomplete="off" required />
+    <input class="textField" type="email" placeholder="Email" id="email" name="email" ng-model="email" autocomplete="off" required />
+    <input class="textField" type="text" placeholder="Username" id="username" name="username" ng-model="username" autocomplete="off" required />
+    <input class="textField" type="password" placeholder="Password" id="password" name="password" ng-model="password" autocomplete="off" required />
+    <input class="textField" type="password" placeholder="Retype password" id="repassword" name="repassword" ng-model="repassword" autocomplete="off" required />
+    <input type="submit" class="button blue submit" ng-disabled="{{registrationForm.$invalid}}" value="Register" />
+    <a href="#!insecure1"><button class="button default" click>Login</button></a>
+    <div>
+      {{response}}
+    </div>
+  </form>
+</div>

@@ -1,0 +1,39 @@
+<div class="smallForm">
+  <h1 style="margin:16px 0 0 0; font-size:48px;">> Insecure1 <</h1>
+  <span class="input input--kozakura">
+    <input class="input__field input__field--kozakura" type="text" id="input-8">
+    <label class="input__label input__label--kozakura" for="input-8">
+      <span class="input__label-content input__label-content--kozakura" data-content="Username">Username</span>
+    </label>
+    <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"></path>
+    </svg>
+  </span>
+  <br />
+  <span class="input input--kozakura">
+    <input class="input__field input__field--kozakura" type="password" id="input-9">
+    <label class="input__label input__label--kozakura" for="input-9">
+      <span class="input__label-content input__label-content--kozakura" data-content="Password">Password</span>
+    </label>
+    <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"></path>
+    </svg>
+  </span>
+  <span class="input input--kozakura" style="margin-bottom:0;">
+    <input class="input__field input__field--kozakura button--kozakura" type="button" value="Login" id="input-8" style="font-family: 'Patua One', cursive; color:#323232; margin-top:.25em;">
+    <label class="input__label input__label--kozakura" for="input-8">
+      <span class="input__label-content input__label-content--kozakura" data-content="">Login</span>
+    </label>
+    <svg class="graphic graphic--kozakura graphicBtn1--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"></path>
+    </svg>
+  </span>
+  <span class="input input--kozakura" style="margin-top:0; margin-bottom:0;">
+    <input class="input__field input__field--kozakura button--kozakura" type="button" value="Register" id="input-8" style="font-family: 'Patua One', cursive; color:#323232; margin-top:.25em;">
+    <label class="input__label input__label--kozakura" for="input-8">
+    </label>
+    <svg class="graphic graphic--kozakura graphicBtn1--kozakura graphicBtn2--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z"></path>
+    </svg>
+  </span>
+</div>

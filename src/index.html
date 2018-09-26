@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>iMean</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/btnDesign.css" />
+  <link rel="stylesheet" type="text/css" href="css/textBoxDesign.css" />
+  <link rel="stylesheet" type="text/css" href="css/blockDesign.css" />
+  <link rel="stylesheet" type="text/css" href="css/otherDesigns.css" />
+  <link href="https://fonts.googleapis.com/css?family=Patua+One|Cinzel+Decorative:700|Signika" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+</head>
+<body ng-app="iMeanNG">
+  <header>
+    <span><img src="img/logo2.png" style="padding: 0 8px;float:left;height:52px;" /></span>
+    <span><a href="#!">iMean NOSQL</a></span>
+    <span class="seperator"></span>
+    <span><a href="http://localhost:4446/#!secure1">Secure 1</a></span>
+    <span><a href="http://localhost:4446/#!insecure1">Insecure 1</a></span>
+    <span class="seperator"></span>
+    <span><a href="http://localhost:4445/#!secure2">Secure 2</a></span>
+    <span><a href="http://localhost:4445/#!insecure2">Insecure 2</a></span>
+    <span class="seperator"></span>
+    <span><a href="http://localhost:4446/#!secure3">Secure 3</a></span>
+    <span><a href="http://localhost:4446/#!insecure3">Insecure 3</a></span>
+    <span class="seperator"></span>
+    <span><a href="#!register">Register</a></span>
+    <span style="float:right;"><a>{{test}}</a></span>
+  </header>
+  <center>
+    <img src="img/logo2.png" height="200px" style="margin-top:32px;" />
+    <div ng-view></div>
+  </center>
+  <script src="js/app.js"></script>
+  <script src="ctrls/mainCtrl.js"></script>
+  <script src="ctrls/secure1Ctrl.js"></script>
+  <script src="ctrls/secure2Ctrl.js"></script>
+  <script src="ctrls/secure3Ctrl.js"></script>
+  <script src="ctrls/registerCtrl.js"></script>
+  <script src="ctrls/insecure1Ctrl.js"></script>
+  <script src="ctrls/insecure2Ctrl.js"></script>
+  <script src="ctrls/insecure3Ctrl.js"></script>
+  <script type="text/javascript" src="js/classie.js"></script>
+</body>
+</html>

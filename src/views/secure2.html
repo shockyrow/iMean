@@ -1,0 +1,12 @@
+<div class="smallForm">
+  <h1 style="margin:16px 0 0 0; font-size:48px;">> Secure 2 <</h1><br /><hr /><br />
+  <form name="secure2Form" method="POST" action="/secure2">
+    <input class="textField" type="text" placeholder="Username" id="username" name="username" ng-model="username" autocomplete="off" required />
+    <input class="textField" type="password" placeholder="Password" id="password" name="password" ng-model="password" autocomplete="off" required />
+    <input type="submit" class="button blue submit" ng-disabled="{{secure2Form.$invalid}}" value="Login" />
+    <a href="#!register"><button class="button default" click>Register</button></a>
+    <div>
+      {{response}}
+    </div>
+  </form>
+</div>
